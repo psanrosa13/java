@@ -52,11 +52,33 @@ public class Exemplo1 {
     System.out.println(testeint2);
     System.out.println(testeint3);
 
-    //long	8 bytes	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+    //long    8 bytes    Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+    long testelong1 = -8588554204748648l;
+    long testelong2 = 84748648;
+    long testelong3 = (int) testeint3;
 
-    //float	4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+    System.out.println(testelong1);
+    System.out.println(testelong2);
+    //Exemplo de conversão correta:
+    System.out.println("Convertendo o valor int de "+testeint3+" para long = "+testelong3);
 
-    //double	8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
+    //float 4 bytes -2,147,483,648 to 2,147,483,647   Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+    float testefloat1 = 555548.07f;
+    float testefloat2 = 77.45555004f;
+    float testefloat3 = (long) testelong3;
+
+    System.out.println(testefloat1);
+    System.out.println(testefloat2);
+    System.out.println("Convertendo o valor long de "+testelong3+" para long = "+testefloat3);
+
+    //double 8 bytes    Stores fractional numbers. Sufficient for storing 15 decimal digits
+    double testedouble1 = -85885548.1234567892236;
+    double testedouble2 = 77.8581234567892236;
+    double testedouble3 = (float) testefloat2;
+
+    System.out.println(testedouble1);
+    System.out.println(testedouble1);
+    System.out.println("Convertendo o valor float de "+testefloat2+" para double = "+testedouble3);
 
     //boolean	1 bit	Stores true or false values
 
