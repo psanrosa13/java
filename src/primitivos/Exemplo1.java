@@ -1,4 +1,4 @@
-package br.com.perifacode.primitivos;
+package primitivos;
 
 public class Exemplo1 {
   public static void main(String[] args) {
