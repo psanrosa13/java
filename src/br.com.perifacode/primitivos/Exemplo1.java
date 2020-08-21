@@ -81,10 +81,23 @@ public class Exemplo1 {
     System.out.println("Convertendo o valor float de "+testefloat2+" para double = "+testedouble3);
 
     //boolean	1 bit	Stores true or false values
+    boolean isCoolJava = true;
+    boolean isEasyJava = false;
+
+    System.out.println(isCoolJava);
+    System.out.println(isEasyJava);
 
     //char	2 bytes	Stores a single character/letter or ASCII values
+    char myChar = 'B';
 
-    //tipos objetos
+    System.out.println(myChar);
+
+    char a = 65 , b = 66 , c =67;
+
+    System.out.println(a);
+    System.out.println(b);
+    System.out.println(c);
+
 
   }
 }
