@@ -11,12 +11,13 @@ public class ExemploInteger {
 
     int idade = 29;
     Integer idadeWrapper = Integer.valueOf(29);
+    Integer idadeWrapper2 = Integer.valueOf(29);
 
-    System.out.println(Integer.compare(idade, idadeWrapper));
+    System.out.println(Integer.compare(idadeWrapper2, idadeWrapper));
 
     Comparator<Integer> order= (i1, i2) -> (i1 < i2) ? -1 : (i1 == i2) ? 0 : 1;
     //Entender porque a comparação funcionou
-    System.out.println(order.compare(idade,idadeWrapper));
+    System.out.println(order.compare(idadeWrapper2,idadeWrapper));
 
     System.out.println("-----------------------------------------------");
     System.out.println("Tempo inicial "+ LocalTime.now());
