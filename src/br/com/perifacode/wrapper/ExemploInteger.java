@@ -41,5 +41,8 @@ public class ExemploInteger {
 
     System.out.println("Tempo final "+ LocalTime.now());
 
+    List lista = new ArrayList();
+    lista.add("Paula");
+
   }
 }
