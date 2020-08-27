@@ -1,6 +1,5 @@
 package br.com.perifacode.String;
 
-import java.lang.runtime.ObjectMethods;
 import java.util.Objects;
 
 public class Exemplo1 {
