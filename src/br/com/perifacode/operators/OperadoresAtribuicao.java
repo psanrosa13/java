@@ -12,48 +12,44 @@ public class OperadoresAtribuicao {
         System.out.println(x = 5);
         System.out.println("----------------");
 
-        System.out.println("x + 3");
-        System.out.println(x + 3);
+        System.out.println("x += 3");
+        System.out.println(x += 3);
         System.out.println("----------------");
 
-        System.out.println("x - 3");
-        System.out.println(x - 3);
+        System.out.println("x -= 3");
+        System.out.println(x -= 3);
         System.out.println("----------------");
 
-        System.out.println("x * 3");
-        System.out.println(x * 3);
+        System.out.println("x *= 3");
+        System.out.println(x *= 3);
         System.out.println("----------------");
 
-        System.out.println("x / 3");
-        System.out.println(x / 3);
+        System.out.println("x /= 3");
+        System.out.println(x /= 3);
         System.out.println("----------------");
 
-        System.out.println("x - 3");
-        System.out.println(x - 3);
+        System.out.println("x %= 3");
+        System.out.println(x %= 3);
         System.out.println("----------------");
 
-        System.out.println("x % 3");
-        System.out.println(x % 3);
+        System.out.println("x &= 3");
+        System.out.println(x &= 3);
         System.out.println("----------------");
 
-        System.out.println("x & 3");
-        System.out.println(x & 3);
+        System.out.println("x |= 3");
+        System.out.println(x |= 3);
         System.out.println("----------------");
 
-        System.out.println("x | 3");
-        System.out.println(x | 3);
+        System.out.println("x ^= 3");
+        System.out.println(x ^= 3);
         System.out.println("----------------");
 
-        System.out.println("x ^ 3");
-        System.out.println(x ^ 3);
+        System.out.println("x >>= 3");
+        System.out.println(x >>= 3);
         System.out.println("----------------");
 
-        System.out.println("x >> 3");
-        System.out.println(x >> 3);
-        System.out.println("----------------");
-
-        System.out.println("x << 3");
-        System.out.println(x << 3);
+        System.out.println("x <<= 3");
+        System.out.println(x <<= 3);
         System.out.println("----------------");
 
     }
