@@ -1,4 +1,4 @@
-package br.com.perifacode.logica;
+package br.com.perifacode.logica.exercicio86;
 
 import java.util.Arrays;
 import java.util.List;
