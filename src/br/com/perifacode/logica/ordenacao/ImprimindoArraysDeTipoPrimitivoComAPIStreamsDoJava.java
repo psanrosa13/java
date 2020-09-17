@@ -8,10 +8,10 @@ public class ImprimindoArraysDeTipoPrimitivoComAPIStreamsDoJava {
 
     public static void main(String[] args) {
 
-        int[] a = {1, 2, 3, 4, 5};
+        int[] vetor = {1, 2, 3, 4, 5};
 
         System.out.println(
-                Arrays.stream(a)
+                Arrays.stream(vetor)
                         // envelopando o tipo primitivo (int) no
                         // tipo correspondente de objeto( nesse caso o Integer)
                         .boxed()
